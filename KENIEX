@@ -593,25 +593,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Description.TextWrapped = true
 			Description.TextXAlignment = Enum.TextXAlignment.Left
 
-			ArrowBtn.Name = "ArrowBtn"
-			ArrowBtn.Parent = Button
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-			ArrowBtn.BackgroundTransparency = 1.000
-			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
-			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
-			ArrowBtn.SliceCenter = Rect.new(30, 30, 30, 30)
-			ArrowBtn.SliceScale = 7.000
-
-			ArrowIco.Name = "ArrowIco"
-			ArrowIco.Parent = ArrowBtn
-			ArrowIco.AnchorPoint = Vector2.new(0.5, 0.5)
-			ArrowIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ArrowIco.BackgroundTransparency = 1.000
-			ArrowIco.Position = UDim2.new(0.495753437, 0, 0.554054081, 0)
-			ArrowIco.Selectable = true
-			ArrowIco.Size = UDim2.new(0, 28, 0, 24)
-			ArrowIco.Image = "http://www.roblox.com/asset/?id=6034818372"
-			ArrowIco.ImageTransparency = .3
+			
 			
 			Button.MouseEnter:Connect(function()
 				TweenService:Create(
@@ -805,7 +787,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			ToggleFrame.Name = "ToggleFrame"
 			ToggleFrame.Parent = Circle
 			ToggleFrame.BackgroundColor3 = Color3.fromRGB(226, 227, 227)
-			ToggleFrame.Position = UDim2.new(33.0856934, 0, 0, 0)
+			ToggleFrame.Position = UDim2.new(36, 0, 0, 0)
 			ToggleFrame.Size = UDim2.new(0, 27, 0, 11)
 
 			ToggleFrameCorner.Name = "ToggleFrameCorner"
@@ -836,25 +818,6 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Description.TextWrapped = true
 			Description.TextXAlignment = Enum.TextXAlignment.Left
 
-			ArrowBtn.Name = "ArrowBtn"
-			ArrowBtn.Parent = Toggle
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-			ArrowBtn.BackgroundTransparency = 1.000
-			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
-			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
-			ArrowBtn.SliceCenter = Rect.new(30, 30, 30, 30)
-			ArrowBtn.SliceScale = 7.000
-
-			ArrowIco.Name = "ArrowIco"
-			ArrowIco.Parent = ArrowBtn
-			ArrowIco.AnchorPoint = Vector2.new(0.5, 0.5)
-			ArrowIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ArrowIco.BackgroundTransparency = 1.000
-			ArrowIco.Position = UDim2.new(0.495753437, 0, 0.554054081, 0)
-			ArrowIco.Selectable = true
-			ArrowIco.Size = UDim2.new(0, 28, 0, 24)
-			ArrowIco.Image = "http://www.roblox.com/asset/?id=6034818372"
-			ArrowIco.ImageTransparency = .3
 			
 		    Toggle.MouseEnter:Connect(function()
 				TweenService:Create(
@@ -1110,31 +1073,13 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			SlideCircle.Image = "rbxassetid://3570695787"
 			SlideCircle.ImageColor3 = PresetColor
 
-			ArrowBtn.Name = "ArrowBtn"
-			ArrowBtn.Parent = Slider
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-			ArrowBtn.BackgroundTransparency = 1.000
-			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
-			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
-			ArrowBtn.SliceCenter = Rect.new(30, 30, 30, 30)
-			ArrowBtn.SliceScale = 7.000
-
-			ArrowIco.Name = "ArrowIco"
-			ArrowIco.Parent = ArrowBtn
-			ArrowIco.AnchorPoint = Vector2.new(0.5, 0.5)
-			ArrowIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ArrowIco.BackgroundTransparency = 1.000
-			ArrowIco.Position = UDim2.new(0.495753437, 0, 0.554054081, 0)
-			ArrowIco.Selectable = true
-			ArrowIco.Size = UDim2.new(0, 28, 0, 24)
-			ArrowIco.Image = "http://www.roblox.com/asset/?id=6034818372"
-			ArrowIco.ImageTransparency = .3
+			
 
 			Value.Name = "Value"
 			Value.Parent = Title
 			Value.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Value.BackgroundTransparency = 1.000
-			Value.Position = UDim2.new(2.27693367, 0, 0, 0)
+			Value.Position = UDim2.new(2.5, 0, 0, 0)
 			Value.Size = UDim2.new(0, 113, 0, 41)
 			Value.Font = Enum.Font.Gotham
 			Value.Text = tostring(start and math.floor((start / max) * (max - min) + min) or 0)
@@ -2419,10 +2364,10 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Description.TextWrapped = true
 			Description.TextXAlignment = Enum.TextXAlignment.Left
 
-			TextboxFrame.Name = "TextboxFrame"
+			TextboxFrame.Name = "TextboxFrame" 
 			TextboxFrame.Parent = Title
 			TextboxFrame.BackgroundColor3 = Color3.fromRGB(255, 125, 4)
-			TextboxFrame.Position = UDim2.new(1.82300889, 0, 0.202380955, 0)
+			TextboxFrame.Position = UDim2.new(2.22300889, 0, 0.202380955, 0)
 			TextboxFrame.Size = UDim2.new(0, 161, 0, 26)
 
 			TextboxFrameCorner.CornerRadius = UDim.new(0, 4)
@@ -2439,24 +2384,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			TextBox.TextSize = 15.000
 			TextBox.TextTransparency = 0.300
 
-			ArrowBtn.Name = "ArrowBtn"
-			ArrowBtn.Parent = Textbox
-			ArrowBtn.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-			ArrowBtn.BackgroundTransparency = 1.000
-			ArrowBtn.Position = UDim2.new(0.903719902, 0, 0, 0)
-			ArrowBtn.Size = UDim2.new(0, 33, 0, 37)
-			ArrowBtn.SliceCenter = Rect.new(30, 30, 30, 30)
-			ArrowBtn.SliceScale = 7.000
-
-			ArrowIco.Name = "ArrowIco"
-			ArrowIco.Parent = ArrowBtn
-			ArrowIco.AnchorPoint = Vector2.new(0.5, 0.5)
-			ArrowIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-			ArrowIco.BackgroundTransparency = 1.000
-			ArrowIco.Position = UDim2.new(0.495753437, 0, 0.554054081, 0)
-			ArrowIco.Selectable = true
-			ArrowIco.Size = UDim2.new(0, 28, 0, 24)
-			ArrowIco.Image = "http://www.roblox.com/asset/?id=6034818372"
+		
 			
 			TextBox.FocusLost:Connect(
 				function(ep)
@@ -2747,4 +2675,3 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	return Tabs
 end
 return Flux
-
