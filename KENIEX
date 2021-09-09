@@ -1320,7 +1320,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			ArrowIco.Name = "ArrowIco"
 			ArrowIco.Parent = Title
 			ArrowIco.AnchorPoint = Vector2.new(0.5, 0.5)
-			ArrowIco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			ArrowIco.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 			ArrowIco.BackgroundTransparency = 1.000
 			ArrowIco.Position = UDim2.new(3.45979357, 0, 0.508096159, 0)
 			ArrowIco.Selectable = true
@@ -1331,7 +1331,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			DropItemHolder.Name = "DropItemHolder"
 			DropItemHolder.Parent = Title
 			DropItemHolder.Active = true
-			DropItemHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			DropItemHolder.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 			DropItemHolder.BackgroundTransparency = 1.000
 			DropItemHolder.BorderSizePixel = 0
 			DropItemHolder.Position = UDim2.new(-0.203539819, 0, 1.02380955, 0)
@@ -1554,7 +1554,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 				Item.Name = "Item"
 				Item.Parent = DropItemHolder
-				Item.BackgroundColor3 = Color3.fromRGB(64, 68, 75)
+				Item.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 				Item.ClipsDescendants = true
 				Item.Size = UDim2.new(0, 427, 0, 25)
 				Item.AutoButtonColor = false
@@ -2684,4 +2684,3 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	end
 	return Tabs
 end
-
