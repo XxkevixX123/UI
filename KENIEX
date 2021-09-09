@@ -2516,7 +2516,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Bind.Name = "Bind"
 			Bind.Parent = Container
-			Bind.BackgroundColor3 = Color3.fromRGB(64, 68, 75)
+			Bind.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 			Bind.ClipsDescendants = true
 			Bind.Position = UDim2.new(0.40625, 0, 0.828947306, 0)
 			Bind.Size = UDim2.new(0, 457, 0, 43)
@@ -2547,7 +2547,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Circle.Parent = Title
 			Circle.Active = true
 			Circle.AnchorPoint = Vector2.new(0.5, 0.5)
-			Circle.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+			Circle.BackgroundColor3 = Color3.fromRGB(255, 125, 4)
 			Circle.Position = UDim2.new(-0.150690272, 0, 0.503000021, 0)
 			Circle.Size = UDim2.new(0, 11, 0, 11)
 
@@ -2570,7 +2570,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			BindLabel.Name = "BindLabel"
 			BindLabel.Parent = Title
-			BindLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			BindLabel.BackgroundColor3 = Color3.fromRGB(255, 125, 4)
 			BindLabel.BackgroundTransparency = 1.000
 			BindLabel.Position = UDim2.new(2.56011987, 0, 0, 0)
 			BindLabel.Size = UDim2.new(0, 113, 0, 42)
@@ -2684,3 +2684,4 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	end
 	return Tabs
 end
+
